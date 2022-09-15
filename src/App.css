@@ -26,9 +26,38 @@
 
 .ulist{
   list-style: none;
+
 }
 
 .ulist li{
   padding: 25px 0;
   font-size: 25px;
+}
+
+.ulist li a{
+  text-decoration: none;
+  color:white;
+  padding: 5px ;
+  border-radius:20px;
+}
+
+
+.ulist li a.active{
+  background-color:white;
+  color:red;
+}
+.col3{
+  background-color:black;
+}
+
+.card{
+  position: relative;
+}
+
+.cardbtnn{
+  position: absolute;
+  bottom:10px;
+  display:flex;
+  align-items:center;
+justify-content: space-between;
 }
